@@ -14,7 +14,7 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     environment:
       MYSQL_ROOT_PASSWORD: changeme
-      MYSQL_DATABASE: tutorials
+      MYSQL_DATABASE: note_taking
       MYSQL_USER: tutorials_user
       MYSQL_PASSWORD: changeme
     volumes:
