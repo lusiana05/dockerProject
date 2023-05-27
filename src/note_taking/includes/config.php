@@ -2,7 +2,7 @@
 
 define('DB_HOST','database');
 define('DB_USER','root');
-define('DB_PASS','change_me');
+define('DB_PASS','root');
 define('DB_NAME','note_taking');
 
 $conn = mysqli_connect('database','root','root','note_taking') or die(mysqli_error());
