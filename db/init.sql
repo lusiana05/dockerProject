@@ -1,3 +1,5 @@
+ALTER USER 'root'@'database' IDENTIFIED WITH mysql_native_password BY 'root';
+
 DROP TABLE IF EXISTS `note`;
 
 CREATE TABLE `note` (
