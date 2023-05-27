@@ -5,7 +5,7 @@ define('DB_USER','root');
 define('DB_PASS','change_me');
 define('DB_NAME','note_taking');
 
-$conn = mysqli_connect('database','root','changeme','note_taking') or die(mysqli_error());
+$conn = mysqli_connect('database','root','root','note_taking') or die(mysqli_error());
 
 // Establish database connection.
 try
