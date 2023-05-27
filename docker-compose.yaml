@@ -16,7 +16,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: note_taking
       #MYSQL_USER: tutorials_user
-      #MYSQL_PASSWORD: changeme
+      # MYSQL_PASSWORD: changeme
     volumes:
       - ./db:/docker-entrypoint-initdb.d
 
